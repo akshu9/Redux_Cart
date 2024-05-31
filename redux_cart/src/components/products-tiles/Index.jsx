@@ -18,7 +18,7 @@ const{cart}=useSelector(state=>state)
     
 
   return <div>
-    <div className="group flex flex-col items-center border-2 border-red-900 gap-3 p-4 h-[360px] mt-10  rounded-xl">
+    <div className="group flex flex-col items-center border-2 border-red-900 gap-3 p-4 h-[360px] mt-10 m-2 rounded-xl">
     <div className="h-[180px]">
         <img
         src={product?.image}
