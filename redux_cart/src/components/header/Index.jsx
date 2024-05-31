@@ -4,7 +4,7 @@ import CartCount from '../CartCount'
 
 const Index = () => {
   return (
-    <nav className=' z-0 fixed top-0  w-full flex items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-1' >
+    <nav className=' z-0 fixed top-0  w-full flex items-center justify-between bg-[#FBFBFB] py-3 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-5' >
       <Link to={'/'}>
         <div className='ml-5'>
           <h1 className="text-red-900 font-bold text-xl sm:text-2xl md:text-3xl cursor-pointer tracking-wide">
