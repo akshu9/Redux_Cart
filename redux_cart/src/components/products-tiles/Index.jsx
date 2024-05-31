@@ -29,7 +29,7 @@ const{cart}=useSelector(state=>state)
         <h1 className='w-40 truncate mt-3 text-gray-700 font-bold text-lg'>{product?.title}</h1>
     </div>
     <div className="flex items-center justify-center w-full mt-5">
-        <button onClick={cart.some(items=>items.id===product.id)?handleRemove:handletocart} className='bg bg-red-900 text-white border-2 rounded-lg font-bold p-4'>
+        <button onClick={cart.some(items=>items.id===product.id)?handleRemove:handletocart} className='bg bg-red-900 text-white border-2 rounded-lg font-bold p-3'>
         {
         cart.some(items=>items.id===product.id)?'Remove items ':'Add to cart'
         }

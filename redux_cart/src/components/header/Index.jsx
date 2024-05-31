@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import CartCount from '../CartCount'
 
 const Index = () => {
   return (
@@ -16,7 +17,8 @@ const Index = () => {
           <li className='cursor-pointer list-none'>Home</li>
         </Link>
         <Link to='/Contact'>
-          <li className='cursor-pointer list-none'>Cart</li>
+          <li className='cursor-pointer list-none'><CartCount></CartCount></li>
+          {/* <CartCount></CartCount> */}
         </Link>
       </ul>
     </nav>

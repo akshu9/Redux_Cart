@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+/* src/components/CartCount.css */
+.cart-count {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.cart-count sup {
+  font-size: 12px; /* Adjust the size as needed */
+  color: white; /* Font color */
+  background-color: rgb(39, 36, 36); /* Background color */
+  border-radius: 50%; /* Makes the shape circular */
+  padding: 4px 8px; /* Adjust padding to control the size */
+  margin-left: 5px; /* Space between text and the number */
+  display: inline-block;
+  line-height: 1; 
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
